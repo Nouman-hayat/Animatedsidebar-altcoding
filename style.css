@@ -1,0 +1,137 @@
+* {
+	list-style: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: montserrat;
+}
+
+ul {
+	margin-left: -270px;
+	width: 270px;
+	background: aqua;
+	height: 100vh;
+	overflow-y: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 50px;
+     transition: all 0.3s;
+}
+ul h5{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	padding: 30px 0;
+}
+ul li {
+	height: 65px;
+	outline: none;
+}
+ul li a {
+	background: aqua;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgb(153, 153, 153);
+	border-left: 5px solid transparent;
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 70px;
+	font-size: 20px;
+	color: white;
+	padding-left: 10%;
+	
+}
+ul li a:hover{
+	background: rgb(71, 71, 71);
+}
+li a.contact {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.active a {
+	background: aqua;
+	color: #1b1b1b;
+	border-left: 5px solid #1b1b1b;
+	
+}
+section {
+	margin-left: 0px;
+	transition: all 0.3s;
+}
+i {
+	font-size: 40px;
+	color: black;
+	cursor: pointer;
+	position: fixed;
+	margin: 20px 25px;
+	
+	
+}
+.section-1 {
+	margin-left: -20px;
+	background: url(sect1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.section-2 {
+	margin-left: -20px;
+	background: url(sect2.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.section-3 {
+	margin-left: -20px;
+	background: url(sect1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.section-4 {
+	margin-left: -20px;
+	background: url(sect2.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.section-5 {
+	margin-left: -20px;
+	background: url(sect1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.section-6 {
+	margin-left: -20px;
+	background: url(sect2.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.section-7 {
+	margin-left: -20px;
+	background: url(sect1.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+h2 {
+	font-size: 40px;
+	padding: 15px 20px;
+}
+p {
+	padding: 0 20px 10px 20px;
+	text-align: justify;
+}
+.ul_show {
+	margin-left: 0px;
+}
+.slide_image {
+	margin-left: 260px;
+}
+.icon-style{
+	left: 200px;
+}
+
